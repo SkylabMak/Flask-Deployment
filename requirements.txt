@@ -1,0 +1,8 @@
+flask
+flask_restful
+werkzeug.exceptions
+numpy
+pandas
+ast
+os
+json
