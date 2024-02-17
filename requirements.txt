@@ -2,6 +2,3 @@ flask
 flask_restful
 numpy
 pandas
-ast
-os
-json
