@@ -9,7 +9,7 @@
     {% if feats is defined %}
     <h3>input : {{ feats }}</h3>
     {% endif %}
-    <form action="/api/predict" method="post">
+    <form action="/predict" method="post">
         <label for="AverageRainingDays">Average Raining Days:</label>
         <input type="number" step="any" id="AverageRainingDays" name="AverageRainingDays" required><br><br>
 
