@@ -5,7 +5,6 @@ import os
 
 # load the model file
 curr_path = os.path.dirname(os.path.realpath(__file__))
-xgb_model = joblib.load(curr_path + "/model/wbb_xgb_model2.joblib")
 gbr_model = joblib.load(curr_path + "/model/wbb_gbr_model2.joblib")
 clustergin_model = joblib.load(curr_path + "/model/clustering.joblib")
 scaler = joblib.load(curr_path + "/model/scaler.joblib")
